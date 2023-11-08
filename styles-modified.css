@@ -1,15 +1,16 @@
 /* Basic reset for consistent styling */
 * {
-    background-color: #FBFBFF;
+    background-color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #F9F9F9  ;
 }
 
 body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
     /* Using Arial font for simplicity */
-    line-height: 1.3;
+    line-height: 1.4;
     /* Spacing between lines */
 }
 
@@ -19,7 +20,8 @@ body {
     margin: 20px auto;
     /* Center the CV on the page */
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #999;
+    background-color: white ;
     /* Border around the CV */
 }
 
@@ -29,26 +31,32 @@ body {
 }
 
 header {
-    background-color: none ;
+    background-color: white  ;
     text-align: right;
     margin-bottom: 30px;
     /* Space below the header */
 }
 
 header h1 {
-    background-color: none ;
-    color: darkblue;
+    background-color: white;
+    color: #041756;
     /* Dark text color for the name */
     margin-bottom: 5px;
+
     /* Small spacing below the name */
 }
 
 header p {
-    background-color: none;
-    color: cadetblue;
+    background-color: white;
+    color: #384D93;
     /* Lighter text color for the title */
 }
 
+img.right {
+    float: right;
+    margin-left: 20px;
+    background-color: white ;
+  }
 /* Styling for each section's title */
 h2 {
     color: white;
@@ -71,22 +79,26 @@ h2 {
 }
 
 #skills li {
-    background-color: #f4f4f4 ;
+    background-color: #F9F9F9 ;
     /* Lighter gray background */
     padding: 5px;
     margin-bottom: 5px;
+
     /* Space between each skill */
 }
 
 /* Styling for each work experience */
 #experience article {
-    background-color: #f4f4f4;
+    background-color: #F9F9F9 ;
     margin-bottom: 5px;
+
     /* Space between each work experience */
 }
 
 #experience h3 {
     margin-bottom: 5px;
     color: white;
+    
     /* Space below the job title */
 }
+
